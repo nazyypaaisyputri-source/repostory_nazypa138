@@ -16,3 +16,13 @@ void input() {
 int luaspersegi() {
     return p * l;
 }
+
+void output(){
+    cout << "Hasilnya = " << luaspersegi() << endl;
+    cout << "terimakasih";
+}
+
+int main() { //mulai
+    input();
+    output();
+} //selesai
